@@ -1,0 +1,31 @@
+@import '../styles/variables.scss';
+
+.main {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+//modo oscuro
+@media screen and (prefers-color-scheme: dark) {
+    .main {
+        background-color: $background-color-dark;
+        color: $text-color-dark;
+    }
+}
+
+// modo claro
+@media screen and (prefers-color-scheme: light) {
+    .main {
+        background-color: $background-color-light;
+        color: $text-color-light;
+    }
+}
+
+// modo no especificado
+@media screen and (prefers-color-scheme: none) {
+    .main {
+        background-color: $background-color-light;
+        color: $text-color-light;
+    }
+}

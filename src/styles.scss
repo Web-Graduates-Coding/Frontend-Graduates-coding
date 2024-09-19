@@ -1,6 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
-
+/* aqui se pondran solo las propiedades globales de la aplicacion */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+//importo las variables de la aplicacion
+@import './styles/variables.scss';
+
+//quiero que el scroll de la pagina sea invisible pero que mantenga el scroll de los contenidos
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+//para ponerle un estilo a los links
+*:link {
+    text-decoration: none;
+    color: $purple-light;
+}
+
 

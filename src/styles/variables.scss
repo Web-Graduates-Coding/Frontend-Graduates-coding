@@ -1,0 +1,43 @@
+// colores de la app
+
+@media screen and (prefers-color-scheme: dark) {
+    $background-color: #303030;
+    $target-color: #636363;
+    $text-color: #FFFFFF;
+}
+
+// modo claro
+@media screen and (prefers-color-scheme: light) {
+    $background-color: #e4eaeb;
+    $target-color: #FFFFFF;
+    $text-color: #000000;
+}
+
+// modo no especificado
+@media screen and (prefers-color-scheme: none) {
+    $background-color: #e4eaeb;
+    $target-color: #FFFFFF;
+    $text-color: #000000;
+}
+
+$background-color-light: #e4eaeb;
+$target-color-light: #FFFFFF;
+$text-color-light: #000000;
+
+$background-color-dark: #303030;
+$target-color-dark: #636363;
+$text-color-dark: #FFFFFF;
+
+$purple-color: #6F3FF5;
+$purple-light: #cebfff;
+
+
+// puntos de quiebre de la app
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// tipo de letra de la app
+$font-family-monserat: Montserrat, sans-serif;
