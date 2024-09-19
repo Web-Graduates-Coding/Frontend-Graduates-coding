@@ -1,10 +1,21 @@
-@import '../../../styles/variables.scss';
+@import '../../../../styles/variables.scss';
+
+.tag {
+    opacity: 0.5;
+}
+
 
 //modo oscuro
 @media screen and (prefers-color-scheme: dark) {
     .message-card {
         background-color: $target-color-dark;
         color: $text-color-dark;
+        -webkit-box-shadow: 0.3px 0.3px 6px 1px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: 0.3px 0.3px 6px 1px rgba(0, 0, 0, 0.6);
+        box-shadow: 0.3px 0.3px 6px 1px rgba(0, 0, 0, 0.6);
+    }
+    .tag {
+        border-color: $text-color-dark;
     }
 }
 
@@ -13,6 +24,12 @@
     .message-card {
         background-color: $target-color-light;
         color: $text-color-light;
+        -webkit-box-shadow: 0.3px 0.3px 5px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0.3px 0.3px 5px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0.3px 0.3px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+    .tag {
+        border-color: $text-color-light;
     }
 }
 
@@ -21,5 +38,12 @@
     .message-card {
         background-color: $target-color-light;
         color: $text-color-light;
+        -webkit-box-shadow: 0.3px 0.3px 5px 1px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0.3px 0.3px 5px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: 0.3px 0.3px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .tag {
+        border-color: $text-color-light;
     }
 }
