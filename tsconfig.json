@@ -9,7 +9,7 @@
         "src/app/*"
       ],
       "@components/*": [
-        "src/app/components/*"
+        "src/app/shared/components/*"
       ],
       "@assets/*": [
         "src/assets/*"

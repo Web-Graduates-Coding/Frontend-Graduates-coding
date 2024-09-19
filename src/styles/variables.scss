@@ -1,30 +1,30 @@
 // colores de la app
 
-@media screen and (prefers-color-scheme: dark) {
-    $background-color: #303030;
-    $target-color: #636363;
-    $text-color: #FFFFFF;
-}
+// @media screen and (prefers-color-scheme: dark) {
+//     $background-color: #333333;
+//     $target-color: #636363;
+//     $text-color: #FFFFFF;
+// }
 
-// modo claro
-@media screen and (prefers-color-scheme: light) {
-    $background-color: #e4eaeb;
-    $target-color: #FFFFFF;
-    $text-color: #000000;
-}
+// // modo claro
+// @media screen and (prefers-color-scheme: light) {
+//     $background-color: #e4eaeb;
+//     $target-color: #FFFFFF;
+//     $text-color: #000000;
+// }
 
-// modo no especificado
-@media screen and (prefers-color-scheme: none) {
-    $background-color: #e4eaeb;
-    $target-color: #FFFFFF;
-    $text-color: #000000;
-}
+// // modo no especificado
+// @media screen and (prefers-color-scheme: none) {
+//     $background-color: #e4eaeb;
+//     $target-color: #FFFFFF;
+//     $text-color: #000000;
+// }
 
 $background-color-light: #e4eaeb;
 $target-color-light: #FFFFFF;
 $text-color-light: #000000;
 
-$background-color-dark: #303030;
+$background-color-dark: #333333;
 $target-color-dark: #636363;
 $text-color-dark: #FFFFFF;
 

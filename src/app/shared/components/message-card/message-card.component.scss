@@ -1,0 +1,25 @@
+@import '../../../styles/variables.scss';
+
+//modo oscuro
+@media screen and (prefers-color-scheme: dark) {
+    .message-card {
+        background-color: $target-color-dark;
+        color: $text-color-dark;
+    }
+}
+
+//modo claro
+@media screen and (prefers-color-scheme: light) {
+    .message-card {
+        background-color: $target-color-light;
+        color: $text-color-light;
+    }
+}
+
+//modo no especificado
+@media screen and (prefers-color-scheme: none) {
+    .message-card {
+        background-color: $target-color-light;
+        color: $text-color-light;
+    }
+}
