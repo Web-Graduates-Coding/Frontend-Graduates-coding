@@ -4,7 +4,10 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      tab: { min: "700px" },
+      lap: { min: "950px" },
+    },
     fontFamily: {
       'montserrat': ['Montserrat', 'sans-serif'],
     },

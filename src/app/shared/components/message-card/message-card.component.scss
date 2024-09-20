@@ -1,7 +1,15 @@
 @import '../../../../styles/variables.scss';
 
 .tag {
-    opacity: 0.5;
+    opacity: 0.7;
+}
+
+.ellipsis-icon {
+    transition: all 0.3s ease-in-out;
+}
+
+.ellipsis-icon:hover {
+    transition: all 0.3s ease-in-out;
 }
 
 
@@ -17,6 +25,13 @@
     .tag {
         border-color: $text-color-dark;
     }
+
+    .ellipsis-icon {
+        fill: $text-color-dark;
+    }
+    .ellipsis-icon:hover {
+        background-color: $purple-color;
+    }
 }
 
 //modo claro
@@ -30,6 +45,13 @@
     }
     .tag {
         border-color: $text-color-light;
+    }
+
+    .ellipsis-icon {
+        fill: $text-color-light;
+    }
+    .ellipsis-icon:hover {
+        background-color: $purple-light;
     }
 }
 
@@ -45,5 +67,13 @@
 
     .tag {
         border-color: $text-color-light;
+    }
+
+    .ellipsis-icon {
+        fill: $text-color-light;
+    }
+
+    .ellipsis-icon:hover {
+        background-color: $purple-light;
     }
 }
